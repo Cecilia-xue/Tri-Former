@@ -1,0 +1,25 @@
+# indian pines
+python train_dist.py --dataset Indian_pines --model_name trihit_cth --sample_list cp --batch_size 12
+
+
+# Pavia University
+python train_dist.py --dataset PaviaU --model_name trihit_cth --sample_list cp --batch_size 12
+
+
+# houstonu
+python train_dist.py --dataset HoustonU --model_name trihit_cth --sample_list cp --batch_size 12
+
+
+
+# Salinas
+python train_dist.py --dataset Salinas --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 150
+
+
+# PaivaC
+python train_dist.py --dataset PaviaC --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 150 --eval_interval 10
+
+
+# Cifar
+python train_dist.py --dataset cifar10 --datatype PHSI --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 150
+python train_dist.py --dataset cifar100 --datatype PHSI --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 150
+

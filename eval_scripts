@@ -1,0 +1,68 @@
+## indian_pines
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth --sample_list cp --trained_weight_dir /home/disk/result/trihit/Indian_pines/trihit_cth_cp/trihit_cth_best.pth
+
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth --sample_list ab_25 --trained_weight_dir /home/disk/result/trihit/Indian_pines/trihit_cth_ab_25/trihit_cth_best.pth
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit/Indian_pines/trihit_cth_ab_50/trihit_cth_best.pth
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth --sample_list ab_75 --trained_weight_dir /home/disk/result/trihit/Indian_pines/trihit_cth_ab_75/trihit_cth_best.pth
+
+#transfer learning finetune lora clip pit
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth_ft --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/Indian_pines/trihit_cth_ft_ab_50_lrs-1.0/trihit_cth_ft_best.pth
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth_lora --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/Indian_pines/trihit_cth_lora_ab_50_lrs-1.0/trihit_cth_lora_best.pth
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth_clip --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/Indian_pines/trihit_cth_clip_ab_50_lrs-1.0/trihit_cth_clip_best.pth
+
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_25 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/Indian_pines/trihit_cth_pit_v4_ab_25_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/Indian_pines/trihit_cth_pit_v4_ab_50_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_75 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/Indian_pines/trihit_cth_pit_v4_ab_75_lrs-0.5/trihit_cth_pit_v4_best.pth
+
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_25 --trained_weight_dir /home/disk/result/trihit_adapter_paviac/Indian_pines/trihit_cth_pit_v4_ab_25_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_paviac/Indian_pines/trihit_cth_pit_v4_ab_50_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_75 --trained_weight_dir /home/disk/result/trihit_adapter_paviac/Indian_pines/trihit_cth_pit_v4_ab_75_lrs-0.5/trihit_cth_pit_v4_best.pth
+
+python eval_dp.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_cifar/Indian_pines/trihit_cth_pit_v4_ab_50_lrs-0.5/trihit_cth_pit_v4_best.pth
+
+
+# paviau
+python eval_dp.py --dataset PaviaU --model_name trihit_cth --sample_list cp --trained_weight_dir /home/disk/result/trihit/PaviaU/trihit_cth_cp/trihit_cth_best.pth
+
+python eval_dp.py --dataset PaviaU --model_name trihit_cth --sample_list ab_25 --trained_weight_dir /home/disk/result/trihit/PaviaU/trihit_cth_ab_25/trihit_cth_best.pth
+python eval_dp.py --dataset PaviaU --model_name trihit_cth --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit/PaviaU/trihit_cth_ab_50/trihit_cth_best.pth
+python eval_dp.py --dataset PaviaU --model_name trihit_cth --sample_list ab_75 --trained_weight_dir /home/disk/result/trihit/PaviaU/trihit_cth_ab_75/trihit_cth_best.pth
+
+#transfer learning finetune lora clip pit
+python eval_dp.py --dataset PaviaU --model_name trihit_cth_ft --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/PaviaU/trihit_cth_ft_ab_50_lrs-1.0/trihit_cth_ft_best.pth
+python eval_dp.py --dataset PaviaU --model_name trihit_cth_lora --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/PaviaU/trihit_cth_lora_ab_50_lrs-1.0/trihit_cth_lora_best.pth
+python eval_dp.py --dataset PaviaU --model_name trihit_cth_clip --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/PaviaU/trihit_cth_clip_ab_50_lrs-1.0/trihit_cth_clip_best.pth
+
+
+python eval_dp.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_25 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/PaviaU/trihit_cth_pit_v4_ab_25_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/PaviaU/trihit_cth_pit_v4_ab_50_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_75 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/PaviaU/trihit_cth_pit_v4_ab_75_lrs-1.0/trihit_cth_pit_v4_best.pth
+
+python eval_dp.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_25 --trained_weight_dir /home/disk/result/trihit_adapter_paviac/PaviaU/trihit_cth_pit_v4_ab_25_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_paviac/PaviaU/trihit_cth_pit_v4_ab_50_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_75 --trained_weight_dir /home/disk/result/trihit_adapter_paviac/PaviaU/trihit_cth_pit_v4_ab_75_lrs-1.0/trihit_cth_pit_v4_best.pth
+
+python eval_dp.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_cifar/PaviaU/trihit_cth_pit_v4_ab_50_lrs-1.0/trihit_cth_pit_v4_best.pth
+
+
+# HoustonU
+python eval_dp.py --dataset HoustonU --model_name trihit_cth --sample_list cp --trained_weight_dir /home/disk/result/trihit/HoustonU/trihit_cth_cp/trihit_cth_best.pth
+
+#transfer learning finetune lora clip pit
+python eval_dp.py --dataset HoustonU --model_name trihit_cth_ft --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/HoustonU/trihit_cth_ft_ab_50_lrs-1.0/trihit_cth_ft_best.pth
+python eval_dp.py --dataset HoustonU --model_name trihit_cth_lora --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/HoustonU/trihit_cth_lora_ab_50_lrs-1.0/trihit_cth_lora_best.pth
+python eval_dp.py --dataset HoustonU --model_name trihit_cth_clip --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/HoustonU/trihit_cth_clip_ab_50_lrs-1.0/trihit_cth_clip_best.pth
+
+python eval_dp.py --dataset HoustonU --model_name trihit_cth --sample_list ab_25 --trained_weight_dir /home/disk/result/trihit/HoustonU/trihit_cth_ab_25/trihit_cth_best.pth
+python eval_dp.py --dataset HoustonU --model_name trihit_cth --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit/HoustonU/trihit_cth_ab_50/trihit_cth_best.pth
+python eval_dp.py --dataset HoustonU --model_name trihit_cth --sample_list ab_75 --trained_weight_dir /home/disk/result/trihit/HoustonU/trihit_cth_ab_75/trihit_cth_best.pth
+
+python eval_dp.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_25 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/HoustonU/trihit_cth_pit_v4_ab_25_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/HoustonU/trihit_cth_pit_v4_ab_50_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_75 --trained_weight_dir /home/disk/result/trihit_adapter_salinas/HoustonU/trihit_cth_pit_v4_ab_75_lrs-1.0/trihit_cth_pit_v4_best.pth
+
+python eval_dp.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_25 --trained_weight_dir /home/disk/result/trihit_adapter_paviac/HoustonU/trihit_cth_pit_v4_ab_25_lrs-1.0/trihit_cth_pit_v4_299.pth
+python eval_dp.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_paviac/HoustonU/trihit_cth_pit_v4_ab_50_lrs-1.0/trihit_cth_pit_v4_best.pth
+python eval_dp.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_75 --trained_weight_dir /home/disk/result/trihit_adapter_paviac/HoustonU/trihit_cth_pit_v4_ab_75_lrs-1.0/trihit_cth_pit_v4_best.pth
+
+python eval_dp.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_50 --trained_weight_dir /home/disk/result/trihit_adapter_cifar/HoustonU/trihit_cth_pit_v4_ab_50_lrs-1.0/trihit_cth_pit_v4_best.pth
