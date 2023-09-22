@@ -1,0 +1,62 @@
+# Indian Pines
+
+python train_adapter.py --dataset Indian_pines --model_name trihit_cth_ft --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+python train_adapter.py --dataset Indian_pines --model_name trihit_cth_clip --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+python train_adapter.py --dataset Indian_pines --model_name trihit_cth_lora --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+
+python train_adapter_salinas.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_25 --batch_size 12 --lr_scale 1.0
+python train_adapter_salinas.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+python train_adapter_salinas.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_75 --batch_size 12 --lr_scale 1.0
+python train_adapter_salinas.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_75 --batch_size 12 --lr_scale 0.5
+
+python train_adapter_pavia.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_25 --batch_size 12 --lr_scale 1.0
+python train_adapter_pavia.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+python train_adapter_pavia.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_75 --batch_size 12 --lr_scale 1.0
+python train_adapter_pavia.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 0.5
+
+python train_adapter_cifar.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+
+python train_adapter_salinas.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 0.5
+python train_adapter_pavia.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 0.5
+python train_adapter_pavia.py --dataset Indian_pines --model_name trihit_cth_pit_v4 --sample_list ab_75 --batch_size 12 --lr_scale 0.5
+
+
+
+# PaivaU
+
+python train_adapter.py --dataset PaviaU --model_name trihit_cth_ft --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+python train_adapter.py --dataset PaviaU --model_name trihit_cth_clip --sample_list ab_50 --batch_size 12 --lr_scale 1.0 --port 23456
+python train_adapter.py --dataset PaviaU --model_name trihit_cth_lora --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+
+python train_adapter.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_25 --batch_size 12 --lr_scale 1.0
+python train_adapter.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+python train_adapter.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_75 --batch_size 12 --lr_scale 1.0
+
+python train_adapter_pavia.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_25 --batch_size 12 --lr_scale 1.0
+python train_adapter_pavia.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+python train_adapter_pavia.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_75 --batch_size 12 --lr_scale 1.0
+
+python train_adapter_cifar.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+
+python train_adapter_salinas.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 0.5
+python train_adapter_pavia.py --dataset PaviaU --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 0.5
+
+
+# houstonU
+
+python train_adapter.py --dataset HoustonU --model_name trihit_cth_ft --sample_list ab_50 --batch_size 12 --lr_scale 1.0 --port 23456
+python train_adapter.py --dataset HoustonU --model_name trihit_cth_clip --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+python train_adapter.py --dataset HoustonU --model_name trihit_cth_lora --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+
+python train_adapter_salinas.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_25 --batch_size 12 --lr_scale 1.0
+python train_adapter_salinas.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+python train_adapter_salinas.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_75 --batch_size 12 --lr_scale 1.0
+
+
+python train_adapter_pavia.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_25 --batch_size 12 --lr_scale 1.0
+python train_adapter_pavia.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+python train_adapter_pavia.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_75 --batch_size 12 --lr_scale 1.0
+
+python train_adapter_cifar.py --dataset HoustonU --model_name trihit_cth_pit_v4 --sample_list ab_50 --batch_size 12 --lr_scale 1.0
+
+
